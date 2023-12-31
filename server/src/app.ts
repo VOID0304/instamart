@@ -8,7 +8,7 @@ dotenv.config()
 
 // initializing app
 const app:Express = express();
-const port:String = process.env.PORT || '5000'
+
 
 app.use(cors())
 app.use(cookieParser())
@@ -18,6 +18,4 @@ app.get("/",async(req:Request,res:Response)=>{
     res.status(200).json({message:"Running successfull"});
 })
 
-app.listen(port,()=>{
-    console.log(`server running on port ${port}`);
-})
+export default app;
