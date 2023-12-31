@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "node dist/build.js",
     "dev": "nodemon --exec ts-node app.ts",
     "build": "node config/esbuild.js"
   },
