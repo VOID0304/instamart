@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.box{
+    border: 1px solid black;
+    width: 500px;
+    box-shadow: 10px;
+}
