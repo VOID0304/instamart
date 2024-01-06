@@ -17,6 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <>
     <html lang="en">
       <Provider>
       <body className={poppins.className} suppressHydrationWarning={true}>
@@ -26,6 +27,6 @@ export default function RootLayout({
       </body>
       </Provider>
     </html>
-  
+    </>
   )
 }
