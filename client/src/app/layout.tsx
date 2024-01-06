@@ -17,9 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
+      <body className={poppins.className} suppressHydrationWarning={true}>
       <Theme appearance={'light'}>
-      <body className={poppins.className} suppressHydrationWarning={true}>{children}</body>
+        {children}
       </Theme>
+      </body>
     </html>
   
   )
