@@ -16,11 +16,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <>
     <html lang="en">
       <Theme appearance={'light'}>
       <body className={poppins.className} suppressHydrationWarning={true}>{children}</body>
       </Theme>
     </html>
-  
+    </>
   )
 }
