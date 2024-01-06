@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-          "primarybgcolor":mauve.mauve12,
+          "primarybgcolor":mauve.mauve1,
           "secondarybgcolor":mauve.mauve2,
           
         
