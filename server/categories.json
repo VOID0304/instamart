@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Dairy",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fdairy.jpg?alt=media&token=cd72d948-6942-4c58-9716-067677f323a9"
+    },
+    {
+        "name":"Personal Care",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fpersonal%20care.jpg?alt=media&token=c552be2b-c497-442b-ba69-34b4d0225ec8"
+    },
+    {
+        "name":"Frozen Foods",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Ffrozen%20food.png?alt=media&token=7c5fa8f9-a883-4871-8867-82d9704a21b5"
+    },
+    {
+        "name":"Condiments",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fcondiments.jpeg?alt=media&token=ff8070a8-ba02-46e2-96c0-0569de72bae9"
+    },
+    {
+        "name":"Snacks",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fsnacks.jpeg?alt=media&token=0f2f4a9f-5ada-4d86-bc89-d03aa01217a7"
+    },
+    {
+        "name":"Fruits & Vegetables",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Ffruits%20and%20vegetables.jpeg?alt=media&token=87221352-2440-4031-a6a1-ada42dccebff"
+    },
+    {
+        "name":"Canned food",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fcanned.jpeg?alt=media&token=ffa296c8-1ad9-4aa7-b27c-1e0e071e1c75"
+    },
+    {
+        "name":"Beverages",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fbewerages.jpeg?alt=media&token=bb1adb56-6ca4-4f24-b67c-b64eabc3fefe"
+    },
+    {
+        "name":"Health Care",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fhealthcare.png?alt=media&token=16743a3a-a417-44ec-bf11-ccf97b9a24a5"
+    },
+    {
+        "name":"Cleaning",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fcleaning.jpeg?alt=media&token=d1eb9e2c-61a8-438a-b3a9-e30baac23f0a"
+    },
+    {
+        "name":"Baby Care",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fbabycare.png?alt=media&token=e55b3f99-232d-464f-9e02-56018e4e9d6d"
+    },
+    {
+        "name":"Pooja",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fpooja%20needs.jpeg?alt=media&token=e46ee957-1ced-4313-996e-95035ede557d"
+    },
+    {
+        "name":"Clothing",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fclothing.png?alt=media&token=9edb1268-c0c9-4f05-976b-21b0f5959957"
+    },
+    {
+        "name":"Bags",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fbags.png?alt=media&token=3b166076-0b8b-4500-b866-20a074851c1c"
+    },
+    {
+        "name":"Candies",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fcandies.jpeg?alt=media&token=63520a2d-292c-4801-816e-6806ef9d7fb0"
+    },
+    {
+        "name":"Stationary",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Fstationary.png?alt=media&token=869493ae-25a0-4a9c-a6b2-e27edbf0c2b8"
+    },
+    {
+        "name":"Tools",
+        "image":"https://firebasestorage.googleapis.com/v0/b/instamart-24644.appspot.com/o/categories%2Ftools.png?alt=media&token=8ab52278-8c2b-463d-ac92-504036623ee7"
+    }
+]
