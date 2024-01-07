@@ -2,8 +2,8 @@
 import Image from 'next/image'
 import {useAtomValue} from 'jotai'
 import { size } from '@/store/response'
-import { MobileHeader } from './components/header'
-import { Carousel } from './components/carousel'
+import { MobileHeader } from '../components/header'
+import { Carousel } from '../components/carousel'
 import { Box } from '@radix-ui/themes'
 
 export default function Home() {
