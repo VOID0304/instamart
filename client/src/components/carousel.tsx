@@ -35,7 +35,7 @@ export const Carousel = () => {
           <div className="duration-700 ease-in-out w-full" data-carousel-item>
             <Image src={'/pic.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
           </div>
-          <div className="duration-700 ease-in-out w-full" data-carousel-item>
+          <div className="duration-700 opacity-0 ease-in-out w-full" data-carousel-item>
             <Image src={'/pic1.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
           </div>
           {/* <div className="duration-700 ease-in-out" data-carousel-item>
