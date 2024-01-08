@@ -2,7 +2,7 @@
   "name": "instamart",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "app.ts",
   "engines": {
     "node": "20.x"
   },
