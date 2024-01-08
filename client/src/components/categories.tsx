@@ -9,7 +9,7 @@ export const MainCatgry = (props:any) => {
             {
                 catlist.map((e,i)=>{
                     return(
-                        <Flex align={'center'} direction={'column'}>
+                        <Flex key={i} align={'center'} direction={'column'}>
                             <Avatar fallback='.' src="mmmm.jpeg" />
                             <Text>{e}</Text>
                         </Flex >
