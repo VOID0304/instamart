@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import CategoryData from '../db/categories';
+import router from '../routes/routes';
 
 // initializing env
 dotenv.config({path:".env"})
@@ -14,7 +15,8 @@ const app:Express = express();
 app.use(cors())
 app.use(cookieParser())
 app.use(express.json())
-CategoryData()
+app.use("/api/v1",router)
+//CategoryData()
 app.get("/",async(req:Request,res:Response)=>{
     res.status(200).json({message:"Running successfull"});
 })
