@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import {useAtomValue} from 'jotai'
 import { size } from '@/store/response'
-import { MobileHeader } from '../components/header'
+import { MainHeader, MobileHeader } from '../components/header'
 import { Carousel } from '../components/carousel'
 import { Box, ScrollArea, Flex, Text, Container } from '@radix-ui/themes'
-import {Carasoul} from '@/components/carasoul'
+import { MainCatgry } from '@/components/categories'
 import { ItemCategory } from '@/components/item'
 import { ItemCard } from '@/components/card'
 
@@ -15,7 +15,12 @@ export default function Home() {
     <>
     {
       (!mob)&&<div className="min-h-screen bg-primarybgcolor">
-          <Carasoul />
+          <MainHeader Name={'Eswar'} /> 
+          <Carousel />
+          <Box my={'7'}></Box>
+          <Container size={'4'} p={'2'}>
+            <MainCatgry />
+          </Container>
       </div>
     } 
 
