@@ -31,17 +31,17 @@ export const Carousel = () => {
     <>
       <div id="controls-carousel" className="relative w-full" data-carousel="static">
         <div className="relative h-44 overflow-hidden rounded-lg">
-          {/* Your Image components go here, make sure to replace src="" with the actual image source */}
+          
           <div className="duration-700 ease-in-out w-full" data-carousel-item>
-            <Image src={'/pic.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
+            <Image src={'/pic2.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
           </div>
           <div className="duration-700 ease-in-out w-full" data-carousel-item>
-            <Image src={'/pic1.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
+            <Image src={'/pic3.png'} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-fit" width={'100'} height={'0'} layout='responsive' alt="image" />
           </div>
           {/* <div className="duration-700 ease-in-out" data-carousel-item>
             <Image src={pic1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="image" />
           </div> */}
-          {/* Repeat similar blocks for other images */}
+          
 
           {/* Buttons */}
           <button
