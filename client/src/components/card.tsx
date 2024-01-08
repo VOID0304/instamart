@@ -1,4 +1,5 @@
 import { Card, Text, Inset, Strong, Flex } from '@radix-ui/themes'
+import Image from 'next/image';
 import { FaCartShopping } from "react-icons/fa6";
 
 export const ItemCard = () =>{
@@ -10,12 +11,12 @@ export const ItemCard = () =>{
 
                 <Flex justify={'center'}>
                     <Inset clip="padding-box" side="top" pb="current">
-                        <img src={'/item1.png'} alt="Bold typography" style={{display: 'block',objectFit: 'cover',width: '100%',height: 140,backgroundColor: 'var(--gray-5)',}}/>
+                        <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive'/>
                     </Inset>
                 </Flex>
                 <Flex className='ml-2 mt-2'>
                     <Text as="p" size="3">
-                        Hershy's Syrup: 623gms
+                        {"Hershy's Syrup: 623gms"}
                     </Text>
                 </Flex>
 
@@ -27,7 +28,7 @@ export const ItemCard = () =>{
                     Discount: <h1 className="text-red-700">205₹</h1>
                     </Flex>
                     <Flex className='ml-10 bg-green-200 rounded-lg w-14' justify={'center'}>
-                        <h1 className='text-green-700 text-center'>25% <br></br>Off</h1>
+                        <h1 className='text-green-700 text-center'>25% <br/> Off</h1>
                     </Flex>
                 </Flex>
 
