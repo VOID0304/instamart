@@ -14,7 +14,7 @@ import {
 export const MainHeader = (props:any) =>{
   return(
     
-      <Box className='flex justify-between items-center p-3'>
+      <Box className='sticky top-0 flex justify-between items-center p-3'>
         <Box className='flex justify-between'>
           <Avatar fallback='VM' src={'/logo1.png'} alt="logo" size={'3'}/>
           <Heading size={'7'} as="h1">VoidMart</Heading>
