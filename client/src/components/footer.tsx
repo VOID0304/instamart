@@ -1,21 +1,22 @@
 import { Box } from "@radix-ui/themes"
-import { FaCartShopping } from "react-icons/fa6";
+import { FaCartShopping,FaAddressCard, FaMoneyBillTrendUp } from "react-icons/fa6";
+import { TbShoppingBagCheck } from "react-icons/tb";
 
 export const FooterNavBar = () =>{
     return(
-        <Box width={'100%'} height={'6'} className="bg-black">
-            <Box className="flex justify-between">
+        <Box width={'100%'} height={'8'} className="bg-black sticky bottom-0">
+            <Box className="flex justify-between p-3">
                 <Box>
-                    <FaCartShopping className="text-white" />
+                    <FaCartShopping className="text-white text-2xl" />
                 </Box>
                 <Box>
-                <FaCartShopping className="text-white" />
+                <FaAddressCard className="text-white text-2xl" />
                 </Box>
                 <Box>
-                <FaCartShopping className="text-white" />
+                <TbShoppingBagCheck className="text-white text-2xl" />
                 </Box>
                 <Box>
-                <FaCartShopping className="text-white" />
+                <FaMoneyBillTrendUp className="text-white text-2xl" />
                 </Box>
             </Box>
         </Box>
