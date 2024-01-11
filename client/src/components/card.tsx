@@ -11,7 +11,7 @@ export const MainItemCard = () =>{
 
                 <Flex justify={'center'}>
                     <Inset clip="padding-box" side="top" pb="current">
-                        <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive'/>
+                        <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'240'} layout='responsive'/>
                     </Inset>
                 </Flex>
                 <Flex className='ml-2 mt-2'>
