@@ -28,3 +28,8 @@ export const MainSubCatgry = (props:any) => {
         </>
     )
 }
+
+
+export const MobileSubCategory = () =>{
+    
+}

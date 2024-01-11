@@ -9,6 +9,8 @@ import { MainCatgry } from '@/components/categories'
 import { ItemCategory } from '@/components/categories'
 import { ItemCard, MainItemCard } from '@/components/card'
 import { FooterNavBar } from '@/components/footer'
+import { Advertaisement } from '@/components/add'
+import { Footer } from '@/components/foot'
 
 export default function Home() {
   const mob = useAtomValue(size)
@@ -54,24 +56,14 @@ export default function Home() {
       <Container size={'4'}>
       <Box className='mt-3 ml-3 mb-3'>
         <h1 className='font-bold text-xl'>Categories</h1>
-        
-            <ScrollArea>
-              <Flex gap="3" p="2" direction="row" className="whitespace-nowrap">
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-                <ItemCategory/>
-              </Flex>
-            </ScrollArea>
-        
+        <ItemCategory/>
       </Box>
       
+      <Box className='mt-3 '>
+        <Advertaisement/>
+      </Box>
 
-      <Box className='ml-3 items-center'>
+      <Box className='ml-3 mt-3 items-center'>
         <h1 className='font-bold text-xl'>Items on sale</h1>
         <Box className='mt-3 items-center'>
           <ItemCard/>
@@ -79,6 +71,36 @@ export default function Home() {
           <ItemCard/>
         </Box>
       </Box>
+
+      <Box className='mt-3 '>
+        <Advertaisement/>
+      </Box>
+      
+
+      <Box className='ml-3 mt-3 items-center'>
+        <h1 className='font-bold text-xl'>Best Offers</h1>
+        <Box>
+        <ScrollArea>
+              <Flex gap="3" p="2" direction="row" className="whitespace-nowrap">
+              <ItemCard/>
+              <ItemCard/>
+              <ItemCard/>
+              <ItemCard/>
+              <ItemCard/>
+              </Flex>
+            </ScrollArea>
+        </Box>
+      </Box>
+
+      <Box className='mt-3 '>
+        <Advertaisement/>
+      </Box>
+      
+
+      <Box>
+        <Footer/>
+      </Box>
+
       </Container>
       <FooterNavBar />
       </>
