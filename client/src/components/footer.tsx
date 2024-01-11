@@ -5,7 +5,7 @@ import { TbShoppingBagCheck } from "react-icons/tb";
 export const FooterNavBar = () =>{
     return(
         <Box width={'100%'} height={'8'} className="bg-black sticky bottom-0">
-            <Box className="flex justify-between p-3">
+            <Box className="flex justify-between p-3 ml-3 mr-3">
                 <Box>
                     <FaCartShopping className="text-white text-2xl" />
                 </Box>
