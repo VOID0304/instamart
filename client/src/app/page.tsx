@@ -6,8 +6,9 @@ import { MainHeader, MobileHeader } from '../components/header'
 import { Carousel } from '../components/carousel'
 import { Box, ScrollArea, Flex, Text, Container } from '@radix-ui/themes'
 import { MainCatgry } from '@/components/categories'
-import { ItemCategory } from '@/components/item'
-import { ItemCard } from '@/components/card'
+import { ItemCategory } from '@/components/categories'
+import { ItemCard, MainItemCard } from '@/components/card'
+import { FooterNavBar } from '@/components/footer'
 
 export default function Home() {
   const mob = useAtomValue(size)
@@ -19,7 +20,21 @@ export default function Home() {
           <Carousel />
           <Box my={'7'}></Box>
           <Container size={'4'} p={'2'}>
-            <MainCatgry />
+            
+            <MainCatgry />        
+              <Flex gap="3" p="2" direction="column" className="whitespace-nowrap">
+                <h1 className='font-bold text-xl'>Items on sale</h1>
+            <ScrollArea>
+                <Flex  mb={'4'} gap={'2'}>
+                  <MainItemCard /> 
+                  <MainItemCard />
+                  <MainItemCard />
+                  <MainItemCard />
+                  <MainItemCard />
+                  <MainItemCard />
+                </Flex>
+            </ScrollArea>
+              </Flex>
           </Container>
       </div>
     } 
@@ -65,6 +80,7 @@ export default function Home() {
         </Box>
       </Box>
       </Container>
+      <FooterNavBar />
       </>
     }
     </>
