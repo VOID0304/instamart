@@ -8,6 +8,7 @@ import { Container, Flex, Grid, Box} from '@radix-ui/themes'
 import { Carousel } from '@/components/carousel'
 import { MainItemCard } from '@/components/card'
 import { MainSubCatgryItemCard } from '@/components/subcategory components/subcatgrycard'
+import { MobileSubCategoryItem } from '@/components/subcategory components/subcategoryitems'
 
 
 export default function Home() {
@@ -21,12 +22,12 @@ export default function Home() {
                 <MainSubCatgry />
                 <Grid columns={'4'} flow={'row'}>
                   <MainSubCatgryItemCard />
+                  {/* <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
-                  <MainSubCatgryItemCard />
-                  <MainSubCatgryItemCard />
+                  <MainSubCatgryItemCard /> */}
                 </Grid>
                 
                   {/* <Box className='flex flex-col'>
@@ -61,6 +62,8 @@ export default function Home() {
             </Box>
             <Carousel/>
             <MobileSubCategory/>
+            <MobileSubCategoryItem/>
+            <MobileSubCategoryItem/>
             </>
     }
     </>
