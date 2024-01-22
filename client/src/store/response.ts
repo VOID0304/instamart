@@ -13,3 +13,5 @@ size.onMount=(set)=>{
         }
     })
 }
+
+export const ItemCategory = atom<String>("all");
