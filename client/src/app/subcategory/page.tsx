@@ -20,12 +20,12 @@ export default function Home() {
                 <MainSubCatgry />
                 <Grid columns={'4'} flow={'row'}>
                   <MainSubCatgryItemCard />
-                  {/* <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
                   <MainSubCatgryItemCard />
-                  <MainSubCatgryItemCard /> */}
+                  <MainSubCatgryItemCard />
+                  <MainSubCatgryItemCard />
                 </Grid>
                 
                   {/* <Box className='flex flex-col'>

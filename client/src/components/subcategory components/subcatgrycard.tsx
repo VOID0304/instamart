@@ -10,7 +10,7 @@ export const MainSubCatgryItemCard = () => {
 
     return (
         <>
-            {/* <Flex className='mt-4 justify-center'>
+            <Flex className='mt-4 justify-center'>
                 <Card className='items-center justify-center card shadow-2xl'>
                     <Image className='ms-2' src={'/grocery1.png'} alt='pen' width={'200'} height={'150'} />
                     <Flex direction={'column'} align={'center'}>
@@ -19,7 +19,7 @@ export const MainSubCatgryItemCard = () => {
                     </Flex>
 
                 </Card>
-            </Flex> */}
+            </Flex>
             <Heading size={'7'}>{category}</Heading>
 
         </>
