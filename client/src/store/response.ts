@@ -1,6 +1,6 @@
 import {atom} from 'jotai'
 
-export const size = atom<Boolean>(true);
+export const size = atom<Boolean>(false);
 
 size.onMount=(set)=>{
     window.innerWidth<640? set(true):set(false)
