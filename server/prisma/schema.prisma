@@ -2,8 +2,8 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
-  previewFeatures = ["mongodb"]
+  provider        = "prisma-client-js"
+  //previewFeatures = ["mongodb"]
 }
 
 datasource db {
@@ -11,10 +11,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model categories{
-  id String @id @default(auto()) @map("_id") @db.ObjectId
-  name String 
-  image String
+model categories {
+  id       String     @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  image    String
+  products products[]
 }
 
-
+model products {
+  id          String     @id @default(auto()) @map("_id") @db.ObjectId
+  category    categories @relation(fields: [catid], references: [id])
+  catid       String     @db.ObjectId
+  name        String
+  quantity    String
+  netquantity String
+  image       String
+}
