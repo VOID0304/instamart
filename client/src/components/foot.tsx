@@ -21,7 +21,7 @@ export const Footer = () =>{
                     />
                 </div>
             </div>
-            <div className="md:ml-10 text-center md:text-left">
+            <div className="md:ml-10 text-center items-center md:text-left">
                 <h1 className="mb-3 text-lg">Follow Us on Social Media</h1>
                 <div className="flex items-center space-x-3">
                     <FaInstagram className="text-xl font-medium" />
