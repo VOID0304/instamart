@@ -5,7 +5,7 @@ export const Advertaisement = () => {
     return(
         <>
         <Box className="">
-        <Image src={'/add1.png'} width={'400'} height={'425'} alt="img" className="max-w-lg" />
+        <Image src={'/add1.png'} width={'400'} height={'425'} alt="img" layout="responsive" className="max-w-lg" />
         </Box>
         </>
     );
