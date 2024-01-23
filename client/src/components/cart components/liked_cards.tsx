@@ -40,7 +40,9 @@ export const LikedCard = () => {
 
                 <div className="flex flex-col flex-grow p-4">
                 <div>
-                    <h2 className="font-bold text-lg mb-2">Hershy's Syrup: 623gms</h2>
+                    <Text as="p" size="3" className="font-bold text-lg mb-2">
+                        {"Hershy's Syrup: 623gms"}
+                    </Text>
                 </div>
                 <Flex className='flex flex-col mt-2 ml-2'>
                     <Flex>
@@ -83,7 +85,9 @@ export const LikedCard = () => {
 
                 <div className="flex flex-col flex-grow p-4">
                 <div>
-                    <h2 className="font-bold text-lg mb-2">Hershy's Syrup: 623gms</h2>
+                <Text as="p" size="3" className="font-bold text-lg mb-2">
+                        {"Hershy's Syrup: 623gms"}
+                    </Text>
                 </div>
                 <Flex className='flex flex-col mt-2 ml-2'>
                     <Flex>
