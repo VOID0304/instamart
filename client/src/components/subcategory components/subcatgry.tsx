@@ -19,6 +19,7 @@ export const MainSubCatgry = (props: any) => {
                 <Flex mb={'5'} gap={'5'}>
                     {
                         subcatlist.map((e, i) => {
+                            
                             return (
                                 <Flex onClick={()=>updateCategory(e)} key={i} align={'center'} direction={'column'}>
                                     <div className="mt-9 flex flex-col items-center justify-between">
@@ -56,7 +57,6 @@ export const MobileSubCategory = () =>{
                                 <Text>{e}</Text>
                             </div>
                         </Flex >
-                        
                     )
                     
                 })

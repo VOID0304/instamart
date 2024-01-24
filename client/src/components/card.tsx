@@ -58,7 +58,7 @@ export const ItemCard = () =>{
     return(
         <>
         <Flex justify={'center'} className='mt-3'>
-        <Card style={{ maxWidth: 360 }} className='items-center justify-center card shadow-2xl'>
+        <Card style={{ maxWidth: 360 }} className='items-center justify-center card shadow-xl'>
             <Flex direction={'column'} justify={'center'} align={'center'}>
 
                 <Flex justify={'center'}>
