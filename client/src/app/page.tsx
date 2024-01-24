@@ -8,9 +8,9 @@ import { Box, ScrollArea, Flex, Text, Container } from '@radix-ui/themes'
 import { MainCatgry } from '@/components/categories'
 import { ItemCategory } from '@/components/categories'
 import { ItemCard, MainItemCard } from '@/components/card'
-import { FooterNavBar } from '@/components/footer'
+import { FooterNavBar, } from '@/components/footer'
 import { Advertaisement } from '@/components/add'
-import { Footer } from '@/components/foot'
+import { Footer, MainFooter } from '@/components/foot'
 
 export default function Home() {
   const mob = useAtomValue(size)
@@ -38,6 +38,7 @@ export default function Home() {
             </ScrollArea>
               </Flex>
           </Container>
+          <MainFooter/>
       </div>
     } 
 
