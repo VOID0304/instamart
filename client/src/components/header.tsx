@@ -15,10 +15,10 @@ import {
 export const MainHeader = (props:any) =>{
   return(
     
-      <Box className='sticky top-0 flex justify-between items-center p-3'>
+      <Box className='sticky top-0 z-10 bg-slate-500 flex justify-between items-center p-3'>
         <Box className='flex justify-between'>
           <Avatar fallback='VM' src={'/logo1.png'} alt="logo" size={'3'}/>
-          <Heading size={'7'} as="h1">VoidMart</Heading>
+          <Heading className="ms-3" size={'7'} as="h1">VoidMart</Heading>
         </Box>
       <Flex align={'center'} gap={'5'}>
         <TextField.Root>
