@@ -1,11 +1,13 @@
 'use client'
 import {useAtomValue} from 'jotai'
 import { size } from '@/store/response'
+import { MainHeader } from '@/components/header'
 import { Container, Flex, Grid, Box, Text} from '@radix-ui/themes'
 import { LikedCard, MainLikedCard } from '@/components/cart components/liked_cards'
 import { MobileHeader } from '@/components/header'
 import { Carousel } from '@/components/carousel'
 import Image from 'next/image'
+import { MainFooter } from '@/components/foot'
 
 export default function Home() {
     const mob = useAtomValue(size)
@@ -13,7 +15,15 @@ export default function Home() {
             <>
             {
                 (!mob) && <div className="min-h-screen bg-primarybgcolor" >
-                    <MainLikedCard></MainLikedCard>
+                    <MainHeader/>
+                    <Container size={'4'} p={'2'}>
+                        <h1 className='font-bold text-xl'>Your Cart</h1>
+                        <MainLikedCard></MainLikedCard>
+                        <MainLikedCard></MainLikedCard>
+                        <MainLikedCard></MainLikedCard>
+                        <MainLikedCard></MainLikedCard>
+                    </Container>
+                    <MainFooter/>
                 </div>
                     
             }
