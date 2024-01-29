@@ -67,17 +67,18 @@ export const MainLikedCard = () => {
 export const LikedCard = () => {
     return (
         <>
-            <h1 className='font-bold text-lg p-3'>My Cart</h1>
-            <div>
-                {/* 1st item */}
-                <div className="img flex h-auto max-w-xl shadow-xl">
-                    <div className="flex items-center mb-4 ml-5">
-                        <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded" />
-                        <label htmlFor="default-checkbox" className="text-sm font-medium text-gray-900 dark:text-gray-300"></label>
-                    </div>
-                    <div className="flex-shrink-0">
-                        <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive' />
-                    </div>
+        <h1 className='font-bold text-lg p-3'>My Cart</h1>
+        <div>
+        <hr/>
+            {/* 1st item */}
+            <div className="img flex h-auto max-w-xl ">
+                <div className="flex items-center mb-4 ml-5">
+                    <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded"/>
+                    <label htmlFor="default-checkbox" className="text-sm font-medium text-gray-900 dark:text-gray-300"></label>
+                </div>
+                <div className="flex-shrink-0">
+                <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive'/>
+                </div>
 
                     <div className="flex flex-col flex-grow p-4">
                         <div>
@@ -113,16 +114,18 @@ export const LikedCard = () => {
                 </div>
             </div>
 
+            <hr/>
+
             <div>
-                {/* 1st item */}
-                <div className="img flex h-auto max-w-xl shadow-xl pt-7">
-                    <div className="flex items-center mb-4 ml-5">
-                        <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded" />
-                        <label htmlFor="default-checkbox" className="text-sm font-medium text-gray-900 dark:text-gray-300"></label>
-                    </div>
-                    <div className="flex-shrink-0">
-                        <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive' />
-                    </div>
+            {/* 1st item */}
+            <div className="img flex h-auto max-w-xl pt-7">
+                <div className="flex items-center mb-4 ml-5">
+                    <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded"/>
+                    <label htmlFor="default-checkbox" className="text-sm font-medium text-gray-900 dark:text-gray-300"></label>
+                </div>
+                <div className="flex-shrink-0">
+                <Image src={'/item1.png'} alt="Bold typography" width={'0'} height={'140'} layout='responsive'/>
+                </div>
 
                     <div className="flex flex-col flex-grow p-4">
                         <div>
@@ -157,6 +160,7 @@ export const LikedCard = () => {
                     </div>
                 </div>
             </div>
+            <hr/>
 
             {/* button */}
 
