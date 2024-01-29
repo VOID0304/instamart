@@ -8,6 +8,7 @@ import { MobileHeader } from '@/components/header'
 import { Carousel } from '@/components/carousel'
 import Image from 'next/image'
 import { MainFooter } from '@/components/foot'
+import { MainTotalCartSum } from '@/components/cart components/total_summary'
 
 export default function Home() {
     const mob = useAtomValue(size)
@@ -22,8 +23,11 @@ export default function Home() {
                         <MainLikedCard></MainLikedCard>
                         <MainLikedCard></MainLikedCard>
                         <MainLikedCard></MainLikedCard>
+                        <MainTotalCartSum/>
                     </Container>
+                    
                     <MainFooter/>
+                    
                 </div>
                     
             }
@@ -40,6 +44,7 @@ export default function Home() {
                             <MobileHeader/>
                         </Box>
                         <LikedCard/>
+                        
                         </>
                     }
                 </>
